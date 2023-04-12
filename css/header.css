@@ -1,0 +1,35 @@
+body{
+	margin: 0;
+}
+header{
+	display: flex;
+	background-color:#F6F6F6;
+	padding: 20px 0 20px 15%;
+	border-bottom: solid 2px red;
+	height: 6.25rem;
+}
+header nav{
+	display: flex;
+	width: 450px;
+}
+header nav div{
+	flex: 1;
+	height: 100px;
+	text-align: center;
+}
+header nav div a{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+header nav div a div{
+	height: 60px;
+}
+header div span{
+	font-size: 60px;
+	font-family:隶书;
+}
+.acc{
+	font-size: 100px;
+	margin-top: 10px;
+}

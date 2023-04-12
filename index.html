@@ -2,73 +2,112 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>永辉书城</title>
+		<title>牛马网</title>
 		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/header.css">
 	</head>
 	<body>
 		<header>
-			<nav>
-				<div><a href="index.html" class="head_text">永辉书城</a></div>
-				<div class="head_right">
-					<div><a href="shop.html">商城</a></div>
-					<div><a href="mine.html">个人中心</a></div>
-					<div><a href="../login.html" target="value">后台管理</a></div>
-				</div>
-			</nav>
-			<div class="head_img">
-				<div class="head_img_text">
-					我始终相信我读过的所有书都不会白读,<br />
-					它总会在未来日子的某一个场合帮助我表现得更出色。<br />
-					读书是可以给人以力量的,它更能给人快乐。 ——董卿
-				</div>
-				<a href="shop.html"><button>去买书</button></a>
+			<div>
+				<img src="img/header/牛马精神1.jpg" height="100"/>
 			</div>
-			
-			
+			<div style="width: 30%;">
+				
+			</div>
+			<div>
+				<nav>
+					<div>
+						<a href="index.html">
+							<div><img src="img/nav/首页_爱给网_aigei_com.png" height="50px" /></div>
+							首页</a>
+					</div>
+					<div>
+						<a href="shop.html">
+							<div><img src="img/nav/商城_爱给网_aigei_com.png" height="50px" /></div>
+							商城</a>
+					</div>
+					<div>
+						<a href="community.html">
+							<div><img src="img/nav/分享_爱给网_aigei_com.png" height="50px" /></div>
+							社区</a>
+					</div>
+					<div>
+						<a href="mine.html">
+							<div><img src="img/nav/个人中心.png" height="50px" /></div>
+							个人中心</a>
+					</div>
+				</nav>
+			</div>
 		</header>
 		<article>
 			
 			<div class="book_recommend">
-				<div><h1>好书推荐</h1></div>
+				<div><h1>好物推荐</h1></div>
 				<div class="recommend_books">
 					<div class="recommend_book">
 						<a href="book.html">
-							<img src="img/book/1.png">
+							<img src="img/shop/1.jpg">
 							<div class="book_text">
-								<strong>鲁滨逊漂流记</strong>
-								<div>$24.5</div>
+								<strong>绿头鱼头套</strong>
+								<div>￥46.3</div>
 							</div>
 						</a>
 					</div>
 					<div class="recommend_book">
 						<a href="book.html">
-							<img src="img/book/2.png">
+							<img src="img/shop/2.jpg">
 							<div class="book_text">
-								<strong>人间失格</strong>
-								<div>$19.9</div>
+								<strong>大力招财猫</strong>
+								<div>￥19.9</div>
 							</div>
 						</a>
 					</div>
 					<div class="recommend_book">
 						<a href="book.html">
-							<img src="img/book/3.png">
+							<img src="img/shop/3.jpg">
 							<div class="book_text">
-								<strong>红楼梦</strong>
-								<div>$39.9</div>
+								<strong>赛博朋克小龙虾</strong>
+								<div>￥129.9</div>
 							</div>
 						</a>
 					</div>
 				</div>
 			</div>
 			
-			<div>
-				<img class="connect_img" src="img/head/2.jpg" />
+			<div class="book_recommend">
+				<div><h1>活动专区</h1></div>
+				<div style="background-color: #FF4136; width: 70%; margin: 0 auto;"><h1>新人福利在线放送</h1><h1>点击立即参与</h1></div>
 			</div>
-			
 			
 		</article>
 		
 		<footer></footer>
+		
+		<div id="gg" class="gg">
+			<div><a href="#"><img src="img/gg/g3.jpg"></a></div>
+			<div class="close" onclick="closeGG()">×</div>
+		</div>
+		<script>
+			function closeGG(){
+				document.getElementById("gg").style.display = "none";
+			}
+		</script>
+		<style>
+		.gg{
+			width: 336px;
+			position: fixed;
+			bottom: 0;
+			right: 0;
+		}
+		.gg .close{
+			position: absolute;
+			top:-3px;
+			right:5px;
+			color: white;
+			font-size: 25px;
+			cursor: default;#鼠标形状
+		}
+		</style>
 		
 		
 	</body>
